@@ -1,6 +1,133 @@
 * {
-	padding: 0;
-	border: 0;
-	margin: 0;
-	list-style: none;
+	margin:    0;
+	padding:   0;
+	border:    0;
+	font-size: 100%;
+	list-style-type: none;
+	font-family: Molengo;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+a:hover {
+	color: #888;
+	text-decoration: underline;
+}
+
+#container {
+	width:      80%;
+	margin:     0px auto -4em;
+	min-height: 100%;
+	margin-bottom: -24px;
+}
+#container:after {
+	content: "";
+	display: block;
+}
+#container:after, #footer {
+	  height: 24px;
+}
+#footer {
+	font-size:   76%;
+	margin:     0px auto -4em;
+	width:       80%;
+	padding-top: 6px;
+	border-top:  1px solid #CCC;
+}
+#header {
+	padding-top:    15px;
+	padding-bottom:  2px;
+	margin-bottom:   4px;
+	border-bottom:   1px solid #CCC;
+}
+
+#header .title {
+	font-size: 148%;
+}
+
+#header .title a {
+}
+
+#header .title a:hover {
+}
+
+#menubar {
+	margin-bottom:  12px;
+	/* border-bottom:   1px solid #CCC; */
+}
+
+#menubar ul {
+	font-size: 18px;
+}
+#menubar li {
+	display: inline;
+}
+
+
+.section {
+	width: 100%;
+	display: block;
+}
+.section_title {
+	float:        left;
+	padding-left: 14px;
+}
+.section_data {
+	float:         right;
+	width:         92%;
+	border-left:   1px solid #CCC;
+	padding-left:  12px;
+	margin-bottom: 18px;
+}
+.clear-split {
+	clear: both;
+}
+
+span.skill_type {
+	display: inline;
+	font-weight: bold;
+}
+ul.skills {
+	display: inline;
+}
+ul.skills li {
+	display: inline;
+}
+
+span.job_name {
+	font-weight: bold;
+	display: block;
+}
+span.job_title {
+	display: block;
+	font-style: italic;
+}
+span.job_location {
+	display: block;
+	font-style: italic;
+}
+span.job_duration {
+	display: block;
+	font-style: italic;
+}
+div.job_description p {
+	padding-bottom: 3px;
+}
+div.job {
+	margin-bottom: 12px;
+}
+
+p.project {
+	padding-bottom: 5px;
+}
+
+p.award {
+	padding-bottom: 5px;
 }
